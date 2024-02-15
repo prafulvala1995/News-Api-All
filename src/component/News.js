@@ -33,6 +33,7 @@ export default class News extends Component {
 
     componentDidMount() {
       this.updatenews();
+      
     }
 
     async componentDidUpdate(prevProps, prevState) {
